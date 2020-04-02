@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { UserModel } from './models/UserModel';
+import userMockData from './mock/userData';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'UserInfoApp';
+  userInfoList: Array<UserModel> = userMockData;
 }

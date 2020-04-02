@@ -1,0 +1,7 @@
+$base-selector: '.address';
+
+#{$base-selector} {
+    &_title {
+        text-align: left;
+    }
+}

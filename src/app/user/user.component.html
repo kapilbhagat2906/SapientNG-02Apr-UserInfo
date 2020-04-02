@@ -1,0 +1,35 @@
+<div class="user-card">
+    <h3 class="user-card_title">User Info</h3>
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="user-card__caption">
+                        Id
+                    </td>
+                    <td>
+                        {{userInfo.id}}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="user-card__caption">
+                        Name
+                    </td>
+                    <td>
+                        {{userInfo.name}}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="user-card_caption">
+                        Email
+                    </td>
+                    <td>
+                        {{userInfo.email}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <app-address [addressInfo]="userInfo.address"></app-address>
+    <app-company [companyInfo]="userInfo.company"></app-company>
+</div>

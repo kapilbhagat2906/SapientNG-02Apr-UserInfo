@@ -1,0 +1,7 @@
+$base-selector: '.company';
+
+#{$base-selector} {
+    &_title {
+        text-align: left;
+    }
+}

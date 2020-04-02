@@ -1,0 +1,16 @@
+$base-selector: '.user-card';
+
+#{$base-selector} {
+    border: 1px solid #d0d0d0;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    min-width: 500px;
+
+    &_title {
+        text-align: center;
+    }
+    &_caption {
+        padding: 10px 30px 10px 0;
+    }
+}
